@@ -3,7 +3,9 @@
   "version": "3.0.0",
   "description": "To fix bug and customized version",
   "license": "MIT",
-  "bugs": "https://github.com/YoungJoon88/react-wordcloud2/issues",
+  "bugs": {
+    "url": "https://github.com/YoungJoon88/react-wordcloud2/issues"
+  },
   "author": "YoungJoon Ji <pro.jyj@gmail.com>",
   "keywords": [
     "react",
@@ -18,7 +20,7 @@
     "clean:docs": "rmdir -rf .docz",
     "docs": "docz dev",
     "lint": "xo --fix; tsc",
-    "prepare": "npm clean; npm run build"
+    "prepare": "npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -92,5 +94,10 @@
       "react/prop-types": "off",
       "unicorn/no-fn-reference-in-iterator": "off"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungJoon88/react-wordcloud3.git"
+  },
+  "homepage": "https://github.com/YoungJoon88/react-wordcloud3#readme"
 }
