@@ -18,7 +18,7 @@
     "clean:docs": "rmdir -rf .docz",
     "docs": "docz dev",
     "lint": "xo --fix; tsc",
-    "prepare": "npm run clean; npm run build"
+    "prepare": "npm clean; npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/index.module.js",
